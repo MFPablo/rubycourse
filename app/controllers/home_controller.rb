@@ -3,6 +3,7 @@ class HomeController < ApplicationController
   end
 
   def about
+      @about_me = "My first webpage"
   end
   
 end
